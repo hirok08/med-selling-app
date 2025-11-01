@@ -73,3 +73,18 @@
     background-color: rgb(43, 157, 119);
 
 }
+
+.nav i {
+  font-size: 1.6rem;
+  display: none;
+}
+
+@media (max-width: 660px) {
+    .nav .nav-part {
+        display: none;
+    }
+    .nav i {
+        display: block;
+    }
+
+}
